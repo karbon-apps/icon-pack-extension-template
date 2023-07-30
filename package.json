@@ -1,0 +1,17 @@
+{
+	"name": "Karbon Brand Icons",
+	"packageManager": "yarn@3.6.1",
+	"scripts": {
+		"start": "ts-node ./app.ts"
+	},
+	"devDependencies": {
+		"@types/node": "^20.4.4",
+		"ts-node": "^10.9.1",
+		"typescript": "^5.1.6"
+	},
+	"dependencies": {
+		"@types/ws": "^8.5.5",
+		"node-pty": "^1.0.0",
+		"ws": "^8.13.0"
+	}
+}
