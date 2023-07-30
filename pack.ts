@@ -58,7 +58,9 @@ newExtension.info = JSON.parse(
 );
 
 /* Load Logo */
-newExtension.logo = fs.readFileSync(join(__dirname, 'logo.png'), 'base64');
+newExtension.logo =
+	'data:image/png;base64,' +
+	fs.readFileSync(join(__dirname, 'logo.png'), 'base64');
 
 /* Load Components */
 const components = fs
