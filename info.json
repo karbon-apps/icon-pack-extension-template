@@ -1,6 +1,6 @@
 {
-    "name":"Tabler Icons",
-    "author":"@yossthedev",
-    "description": "Icon Pack from tabler-icons.io",
-    "version":"1.0.0"
+	"name": "My Awesome Extension",
+	"author": "@yossthedev",
+	"description": "An Awesome Extension for Karbonized",
+	"version": "1.0.0"
 }

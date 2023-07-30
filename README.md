@@ -14,15 +14,15 @@ Template for creating a **Component Extension** for [Karbonized](https://github.
 
 * Edit the properties of the *info.json* file with the properties of your new extension
 
-* Change Name Property on bash.sh and run it
+* And Pack
 
 ``` bash
-bash run pack.sh
+yarn run pack.ts
 ```
 
 ## 🔌 Installing The New Extension
 
-Copy the generated compressed file (*MyExtension.zip for example*) to **Karbonized Extensions** Folder
+Copy the generated compressed file (*MyAwesomeExtension.kext for example*) to **Karbonized Extensions** Folder
 
 * **Windows**: C:\Users\USER\AppData\Local\karbonized\extensions\
 * **Linux**: /home/USER/.config/karbonized/extensions/
